@@ -13,11 +13,13 @@
 } 
 
 .colors-header__wrapper {
-    max-width: $workarea;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    @include desktop-only {
+        width: $workarea;
+    }
 }
 
 .colors-header__title {

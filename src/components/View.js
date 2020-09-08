@@ -15,7 +15,7 @@ import { ColorInput } from './ColorInput';
  */
 export default function View({showBack, className, children}) {
     let theme = useSelector(currentTheme);
-    return (<div className={`colors-view colors-${theme}-theme ${className}`}>
+    return (<div className={`colors-view colors-${theme}-theme`}>
         <Header showBack={showBack}>
             <ColorInput className="colors-view-colorinput" label="Analizar"/>
         </Header>

@@ -10,9 +10,9 @@ export default function ColorInfo({color}) {
     return (
         <View showBack={true}>
             <h3>Analogous Colors</h3>
-            <Analogous  color={fcolor}/>/>
+            <Analogous  color={fcolor}/>
             <h3>Triadic Colors</h3>
-            <Triadic color={fcolor}/>
+            <Triadic color={fcolor}/>            
             <h3>Complementary Color</h3>
             <Complementary color={fcolor}/>
             <h3>Shades of {fcolor}</h3>

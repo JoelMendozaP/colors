@@ -73,6 +73,12 @@ $lightTheme: map-merge($lightTheme, $elevations);
     @return map-get($lightTheme, $value);
 }
 
+@mixin desktop-only {
+	@media (min-width : 1024px) {
+		@content;
+	}
+}
+
 @mixin theme_vars($theme:'dark'){
     --theme-primary: #{theme_data($theme, 'primary')}; 
     --theme-primary-hover: #{theme_data($theme, 'primary-hover')}; 

@@ -1,6 +1,6 @@
 {
   "name": "colors",
-  "homepage": "https://fernandojerez.github.io/colors/",
+  "homepage": "/colors/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "color": "^3.1.2",
+    "history": "^5.0.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

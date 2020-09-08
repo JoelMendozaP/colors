@@ -32,7 +32,7 @@ const default_colors = ['#e0ece4', '#ff4b5c', '#056674', '#66bfbf',
  */
 export function TileSet({ mode= LARGE, colors=default_colors }) {
     return (
-        <div className="colors-tileset">
+        <div className={`colors-tileset colors-tileset--{mode}`}>
             {colors.map((value, index) => {
                 return (
                     <Link key={index} to={info_url(value)}>
