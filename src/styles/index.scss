@@ -18,3 +18,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.error-msg {
+    background-color: $theme_error;
+    color: $theme_on_error;
+    padding: $padding;
+    border-radius: $rounded;
+}

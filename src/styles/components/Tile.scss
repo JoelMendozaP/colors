@@ -13,6 +13,9 @@ $tile_compact_size: 90px;
         padding: $padding;
         box-shadow: $theme_card_elevation;         
     }
+    &--compact {        
+        margin-right: 2px;
+    }
 }
 
 .colors-tile--compact .colors-tile__color {

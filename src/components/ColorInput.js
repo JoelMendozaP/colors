@@ -9,7 +9,7 @@ export function ColorInput({ className, label }) {
     const navigate = useNavigate();
     const showColorInfo = () => {
         if (color) {
-            navigate(info_url(color));
+            navigate(info_url(color.toLowerCase()));
         }
     }
     return (
