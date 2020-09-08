@@ -1,0 +1,43 @@
+@import '../lib/variables';
+
+$tile_size: 150px;
+$tile_compact_size: 90px;
+
+.colors-tile {
+    cursor: pointer;    
+    cursor: pointer;
+    &--large {        
+        background-color: $theme_background;
+        border-radius: $rounded;        
+        margin: $margin;
+        padding: $padding;
+        box-shadow: $theme_card_elevation;         
+    }
+}
+
+.colors-tile--compact .colors-tile__color {
+    width: $tile_compact_size;
+    height: $tile_compact_size;
+}
+
+.colors-tile--large .colors-tile__color {
+    width: $tile_size;
+    height: $tile_size;
+}
+
+.colors-tile--large .colors-tile__caption {
+    margin-top: $margin;
+    text-align: center;
+}
+
+.colors-tile--compact .colors-tile__caption {
+    margin-top: $margin/2;
+    font-size: 16px * 0.8;
+    text-align: center;
+}
+
+.colors-tileset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

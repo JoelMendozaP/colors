@@ -1,0 +1,26 @@
+@import '../lib/variables';
+
+.colors-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $theme_surface;
+    color: $theme_on_surface;
+    width: 100vw;
+    height: 100vh;    
+}
+
+.colors-view__scrollview {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    width: 100vw;
+    height: 100vw;
+}
+
+.colors-view__content {
+    padding: $padding;
+    max-width: $workarea;    
+}
