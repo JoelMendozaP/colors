@@ -15,6 +15,7 @@ export function ColorInput({ className, label }) {
     return (
         <div className={`colors-colorinput ${className}`}>
             <input className="colors-colorinput__input" value={color} onChange={(e) => setColor(e.target.value)} />
+            <span className="colors-colorinput__preview" style={{backgroundColor: color}}></span>
             <button className="colors-colorinput__button" onClick={showColorInfo}>{label}</button>
         </div>
     );

@@ -1,7 +1,11 @@
 @import '../lib/variables';
 
+$previewSize: 24px;
+
+
 .colors-colorinput {
     display: flex;
+    align-items: center;
     padding: $padding/2;
     padding-left: $padding;
 }
@@ -13,6 +17,15 @@
     border: 1px solid lightgray;
     background-color: $theme_surface;
     width: 10em;
+}
+
+.colors-colorinput__preview {
+    width: $previewSize;
+    height: $previewSize;
+    margin-right: $padding/2;
+    padding: $padding/2;
+    border-radius: $rounded;
+    border: 1px solid lightgray;
 }
 
 .colors-colorinput__input:focus {

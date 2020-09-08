@@ -14,7 +14,7 @@ export const LARGE = "large";
  */
 export function Tile({ mode=LARGE, color }) {
     return (<div className={`colors-tile colors-tile--${mode}`}>
-        <div className="colors-tile__color" style={{ 'backgroundColor': color }}>
+        <div className="colors-tile__color" style={{ backgroundColor: color }}>
 
         </div>
         <div className="colors-tile__caption">
