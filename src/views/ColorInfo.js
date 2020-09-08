@@ -18,7 +18,7 @@ export default function ColorInfo({ color }) {
     setTimeout(() => setShowAlert(false), 4000);
     return (
         <View showBack={true}>
-            {showAlert && <div class="error-msg">The color {color} is not a real color</div>}
+            {showAlert && <div className="error-msg">The color {color} is not a real color</div>}
             <h3>Analogous Colors</h3>
             <Analogous color={fcolor} />
             <h3>Triadic Colors</h3>
