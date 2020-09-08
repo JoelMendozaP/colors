@@ -1,7 +1,7 @@
 @import '../lib/variables';
 
 $previewSize: 24px;
-
+$inputSize: 7em;
 
 .colors-colorinput {
     display: flex;
@@ -16,7 +16,10 @@ $previewSize: 24px;
     border-radius: $rounded;
     border: 1px solid lightgray;
     background-color: $theme_surface;
-    width: 10em;
+    width: $inputSize;
+    @include desktop-only {
+        width: $inputSize*1.5;
+    }
 }
 
 .colors-colorinput__preview {
