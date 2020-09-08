@@ -8,3 +8,13 @@ Colors App is a demo App using React.
 3.  Icons from [Font Awesome](https://fontawesome.com/)
 4.  Styling with [Sass](https://sass-lang.com/) 
 	1.  Naming standard [BEM](http://getbem.com/)
+
+## What the app does?
+
+The app show a dashboard of information about a color. The home showcase a default list of colors when you pick a color the app shows the dashboard with the following information:
+
+1. Analogous Colors
+2. Triadic Colors
+3. Complementary Colors
+4. Shades
+5. Tints
