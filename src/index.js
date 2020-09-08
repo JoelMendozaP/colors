@@ -11,7 +11,7 @@ import ColorInfo from 'views/ColorInfo';
 
 ReactDOM.render(
   <Provider store={Store}>
-    <Router basepath="/colors">
+    <Router basepath="/colors/">
       <ColorInfo path="/info/:color" />
       <Home path="/" />
     </Router>
